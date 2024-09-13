@@ -1,0 +1,86 @@
+/* 自定义表格列宽度 */
+.col-id {
+    width: 5%; /* 设置ID列宽度为5% */
+}
+
+.col-company-name {
+    width: 15%; /* 设置公司名称列宽度为20% */
+}
+
+.col-credit-code {
+    width: 15%; /* 设置统一社会信用代码列宽度为15% */
+}
+
+.col-legal-representative {
+    width: 6%; /* 设置法人姓名列宽度为10% */
+}
+
+.col-address {
+    width: 15%; /* 设置地址列宽度为20% */
+}
+
+.col-registered-capital {
+    width: 7%; /* 设置注册资本列宽度为10% */
+}
+
+.col-establishment-date {
+    width: 8%; /* 设置成立日期列宽度为10% */
+}
+
+/* 可以根据需要调整各列的宽度 */
+
+/* 以下是样式表，用于美化后台页面 */
+
+.admin-dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.admin-dashboard-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.admin-dashboard-description {
+    font-size: 16px;
+    color: #777;
+}
+
+.admin-dashboard-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard-stat-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 22%;
+}
+
+.admin-dashboard-stat-box h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.admin-dashboard-stat-box p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0073aa;
+}
+
+.admin-dashboard-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.admin-dashboard-buttons .button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+

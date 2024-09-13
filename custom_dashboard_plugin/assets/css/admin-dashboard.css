@@ -1,0 +1,183 @@
+/* 表单外层容器样式 */
+.auth-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 表单行布局，确保每行元素对齐 */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* 标签的宽度一致 */
+.form-row label {
+    flex: 1;
+    min-width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* 输入框样式 */
+.form-row input {
+    flex: 2;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* 提交按钮样式 */
+.submit-button {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    width: auto;
+    align-self: flex-end;
+}
+
+/* 提交按钮容器，右对齐 */
+.form-row-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+/* 注册提示文本样式 */
+.register-prompt {
+    text-align: right;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.register-prompt a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.register-prompt a:hover {
+    text-decoration: underline;
+}
+
+/* 企业用户中心页面布局 */
+.enterprise-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.dashboard-title {
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+}
+
+.dashboard-info p {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.dashboard-info p strong {
+    color: #0073aa;
+}
+
+.dashboard-files {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.dashboard-files p a {
+    text-decoration: none;
+    color: #0073aa;
+    font-weight: bold;
+}
+
+.dashboard-files p a:hover {
+    text-decoration: underline;
+}
+
+form#edit-form {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="date"],
+.form-row input[type="password"],
+.form-row input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.form-row input[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#edit-info-button {
+    background-color: #0073aa;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
